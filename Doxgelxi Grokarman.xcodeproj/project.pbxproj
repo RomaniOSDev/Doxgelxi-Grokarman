@@ -3,29 +3,81 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		7451FD552F7471B400C72359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7451FD4B2F7471B400C72359 /* Assets.xcassets */; };
+		7451FD572F7471B400C72359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7451FD4F2F7471B400C72359 /* LaunchScreen.storyboard */; };
+		7451FD582F7471B400C72359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7451FD512F7471B400C72359 /* Main.storyboard */; };
+		7451FD592F7471B400C72359 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD1F2F7471B400C72359 /* RootView.swift */; };
+		7451FD5A2F7471B400C72359 /* AppVisualStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD212F7471B400C72359 /* AppVisualStyles.swift */; };
+		7451FD5B2F7471B400C72359 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD222F7471B400C72359 /* ButtonStyles.swift */; };
+		7451FD5C2F7471B400C72359 /* DifficultyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD232F7471B400C72359 /* DifficultyPickerView.swift */; };
+		7451FD5D2F7471B400C72359 /* AppPolicyLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD252F7471B400C72359 /* AppPolicyLink.swift */; };
+		7451FD5E2F7471B400C72359 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD272F7471B400C72359 /* AppStorage.swift */; };
+		7451FD5F2F7471B400C72359 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD2A2F7471B400C72359 /* AchievementsView.swift */; };
+		7451FD602F7471B400C72359 /* ActivityResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD2C2F7471B400C72359 /* ActivityResult.swift */; };
+		7451FD612F7471B400C72359 /* MountainAscentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD2E2F7471B400C72359 /* MountainAscentView.swift */; };
+		7451FD622F7471B400C72359 /* MountainAscentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD2F2F7471B400C72359 /* MountainAscentViewModel.swift */; };
+		7451FD632F7471B400C72359 /* MysticForestQuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD312F7471B400C72359 /* MysticForestQuestView.swift */; };
+		7451FD642F7471B400C72359 /* MysticForestQuestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD322F7471B400C72359 /* MysticForestQuestViewModel.swift */; };
+		7451FD652F7471B400C72359 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD342F7471B400C72359 /* ResultView.swift */; };
+		7451FD662F7471B400C72359 /* RuinsOfTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD362F7471B400C72359 /* RuinsOfTimeView.swift */; };
+		7451FD672F7471B400C72359 /* RuinsOfTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD372F7471B400C72359 /* RuinsOfTimeViewModel.swift */; };
+		7451FD682F7471B400C72359 /* ActivityHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD392F7471B400C72359 /* ActivityHostView.swift */; };
+		7451FD692F7471B400C72359 /* ActivityGlyphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD3B2F7471B400C72359 /* ActivityGlyphView.swift */; };
+		7451FD6A2F7471B400C72359 /* AdventuresHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD3C2F7471B400C72359 /* AdventuresHomeView.swift */; };
+		7451FD6B2F7471B400C72359 /* LevelSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD3D2F7471B400C72359 /* LevelSelectView.swift */; };
+		7451FD6C2F7471B400C72359 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD3F2F7471B400C72359 /* HomeView.swift */; };
+		7451FD6D2F7471B400C72359 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD412F7471B400C72359 /* MainTabView.swift */; };
+		7451FD6E2F7471B400C72359 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD432F7471B400C72359 /* OnboardingView.swift */; };
+		7451FD6F2F7471B400C72359 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD452F7471B400C72359 /* ProfileView.swift */; };
+		7451FD702F7471B400C72359 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD472F7471B400C72359 /* SettingsView.swift */; };
+		7451FD712F7471B400C72359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD4A2F7471B400C72359 /* AppDelegate.swift */; };
+		7451FD722F7471B400C72359 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD4C2F7471B400C72359 /* ContentView.swift */; };
+		7451FD732F7471B400C72359 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD522F7471B400C72359 /* SceneDelegate.swift */; };
+		7451FD742F7471B400C72359 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451FD532F7471B400C72359 /* ViewController.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D3BA69F8279C9F70C49F665 /* Pods-Doxgelxi Grokarman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doxgelxi Grokarman.debug.xcconfig"; path = "Target Support Files/Pods-Doxgelxi Grokarman/Pods-Doxgelxi Grokarman.debug.xcconfig"; sourceTree = "<group>"; };
 		23D53E0F12F3B0ED91A78434 /* Pods_Doxgelxi_Grokarman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doxgelxi_Grokarman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDBBB55BE9CD8D28ECA5652 /* Pods-Doxgelxi Grokarman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doxgelxi Grokarman.release.xcconfig"; path = "Target Support Files/Pods-Doxgelxi Grokarman/Pods-Doxgelxi Grokarman.release.xcconfig"; sourceTree = "<group>"; };
 		7451FC412F7441EE00C72359 /* Doxgelxi Grokarman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doxgelxi Grokarman.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7451FD1F2F7471B400C72359 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7451FD212F7471B400C72359 /* AppVisualStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVisualStyles.swift; sourceTree = "<group>"; };
+		7451FD222F7471B400C72359 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		7451FD232F7471B400C72359 /* DifficultyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyPickerView.swift; sourceTree = "<group>"; };
+		7451FD252F7471B400C72359 /* AppPolicyLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPolicyLink.swift; sourceTree = "<group>"; };
+		7451FD272F7471B400C72359 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		7451FD2A2F7471B400C72359 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		7451FD2C2F7471B400C72359 /* ActivityResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityResult.swift; sourceTree = "<group>"; };
+		7451FD2E2F7471B400C72359 /* MountainAscentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainAscentView.swift; sourceTree = "<group>"; };
+		7451FD2F2F7471B400C72359 /* MountainAscentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainAscentViewModel.swift; sourceTree = "<group>"; };
+		7451FD312F7471B400C72359 /* MysticForestQuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticForestQuestView.swift; sourceTree = "<group>"; };
+		7451FD322F7471B400C72359 /* MysticForestQuestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticForestQuestViewModel.swift; sourceTree = "<group>"; };
+		7451FD342F7471B400C72359 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		7451FD362F7471B400C72359 /* RuinsOfTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuinsOfTimeView.swift; sourceTree = "<group>"; };
+		7451FD372F7471B400C72359 /* RuinsOfTimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuinsOfTimeViewModel.swift; sourceTree = "<group>"; };
+		7451FD392F7471B400C72359 /* ActivityHostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityHostView.swift; sourceTree = "<group>"; };
+		7451FD3B2F7471B400C72359 /* ActivityGlyphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityGlyphView.swift; sourceTree = "<group>"; };
+		7451FD3C2F7471B400C72359 /* AdventuresHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventuresHomeView.swift; sourceTree = "<group>"; };
+		7451FD3D2F7471B400C72359 /* LevelSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectView.swift; sourceTree = "<group>"; };
+		7451FD3F2F7471B400C72359 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7451FD412F7471B400C72359 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		7451FD432F7471B400C72359 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7451FD452F7471B400C72359 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7451FD472F7471B400C72359 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7451FD4A2F7471B400C72359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7451FD4B2F7471B400C72359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7451FD4C2F7471B400C72359 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7451FD4D2F7471B400C72359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7451FD4E2F7471B400C72359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7451FD502F7471B400C72359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7451FD522F7471B400C72359 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7451FD532F7471B400C72359 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7451FC7B2F74423600C72359 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7451FC402F7441EE00C72359 /* Doxgelxi Grokarman */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7451FC732F74423600C72359 /* Doxgelxi Grokarman */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7451FC7B2F74423600C72359 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Doxgelxi Grokarman"; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7451FC3E2F7441EE00C72359 /* Frameworks */ = {
@@ -58,7 +110,7 @@
 		7451FC382F7441EE00C72359 = {
 			isa = PBXGroup;
 			children = (
-				7451FC732F74423600C72359 /* Doxgelxi Grokarman */,
+				7451FD542F7471B400C72359 /* Doxgelxi Grokarman */,
 				7451FC422F7441EE00C72359 /* Products */,
 				015B19635933AF1DA795E14A /* Pods */,
 				3DE5B375236ED27B12016B1D /* Frameworks */,
@@ -71,6 +123,197 @@
 				7451FC412F7441EE00C72359 /* Doxgelxi Grokarman.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7451FD202F7471B400C72359 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD1F2F7471B400C72359 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7451FD242F7471B400C72359 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD212F7471B400C72359 /* AppVisualStyles.swift */,
+				7451FD222F7471B400C72359 /* ButtonStyles.swift */,
+				7451FD232F7471B400C72359 /* DifficultyPickerView.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		7451FD262F7471B400C72359 /* Legal */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD252F7471B400C72359 /* AppPolicyLink.swift */,
+			);
+			path = Legal;
+			sourceTree = "<group>";
+		};
+		7451FD282F7471B400C72359 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD272F7471B400C72359 /* AppStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		7451FD292F7471B400C72359 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD242F7471B400C72359 /* DesignSystem */,
+				7451FD262F7471B400C72359 /* Legal */,
+				7451FD282F7471B400C72359 /* Storage */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7451FD2B2F7471B400C72359 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD2A2F7471B400C72359 /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		7451FD2D2F7471B400C72359 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD2C2F7471B400C72359 /* ActivityResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7451FD302F7471B400C72359 /* MountainAscent */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD2E2F7471B400C72359 /* MountainAscentView.swift */,
+				7451FD2F2F7471B400C72359 /* MountainAscentViewModel.swift */,
+			);
+			path = MountainAscent;
+			sourceTree = "<group>";
+		};
+		7451FD332F7471B400C72359 /* MysticForest */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD312F7471B400C72359 /* MysticForestQuestView.swift */,
+				7451FD322F7471B400C72359 /* MysticForestQuestViewModel.swift */,
+			);
+			path = MysticForest;
+			sourceTree = "<group>";
+		};
+		7451FD352F7471B400C72359 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD342F7471B400C72359 /* ResultView.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		7451FD382F7471B400C72359 /* RuinsOfTime */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD362F7471B400C72359 /* RuinsOfTimeView.swift */,
+				7451FD372F7471B400C72359 /* RuinsOfTimeViewModel.swift */,
+			);
+			path = RuinsOfTime;
+			sourceTree = "<group>";
+		};
+		7451FD3A2F7471B400C72359 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD2D2F7471B400C72359 /* Models */,
+				7451FD302F7471B400C72359 /* MountainAscent */,
+				7451FD332F7471B400C72359 /* MysticForest */,
+				7451FD352F7471B400C72359 /* Result */,
+				7451FD382F7471B400C72359 /* RuinsOfTime */,
+				7451FD392F7471B400C72359 /* ActivityHostView.swift */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		7451FD3E2F7471B400C72359 /* Adventures */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD3B2F7471B400C72359 /* ActivityGlyphView.swift */,
+				7451FD3C2F7471B400C72359 /* AdventuresHomeView.swift */,
+				7451FD3D2F7471B400C72359 /* LevelSelectView.swift */,
+			);
+			path = Adventures;
+			sourceTree = "<group>";
+		};
+		7451FD402F7471B400C72359 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD3F2F7471B400C72359 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7451FD422F7471B400C72359 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD412F7471B400C72359 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7451FD442F7471B400C72359 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD432F7471B400C72359 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		7451FD462F7471B400C72359 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD452F7471B400C72359 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7451FD482F7471B400C72359 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD472F7471B400C72359 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7451FD492F7471B400C72359 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD2B2F7471B400C72359 /* Achievements */,
+				7451FD3A2F7471B400C72359 /* Activities */,
+				7451FD3E2F7471B400C72359 /* Adventures */,
+				7451FD402F7471B400C72359 /* Home */,
+				7451FD422F7471B400C72359 /* Main */,
+				7451FD442F7471B400C72359 /* Onboarding */,
+				7451FD462F7471B400C72359 /* Profile */,
+				7451FD482F7471B400C72359 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		7451FD542F7471B400C72359 /* Doxgelxi Grokarman */ = {
+			isa = PBXGroup;
+			children = (
+				7451FD202F7471B400C72359 /* App */,
+				7451FD292F7471B400C72359 /* Core */,
+				7451FD492F7471B400C72359 /* Features */,
+				7451FD4A2F7471B400C72359 /* AppDelegate.swift */,
+				7451FD4B2F7471B400C72359 /* Assets.xcassets */,
+				7451FD4C2F7471B400C72359 /* ContentView.swift */,
+				7451FD4D2F7471B400C72359 /* Info.plist */,
+				7451FD4F2F7471B400C72359 /* LaunchScreen.storyboard */,
+				7451FD512F7471B400C72359 /* Main.storyboard */,
+				7451FD522F7471B400C72359 /* SceneDelegate.swift */,
+				7451FD532F7471B400C72359 /* ViewController.swift */,
+			);
+			path = "Doxgelxi Grokarman";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,9 +331,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7451FC732F74423600C72359 /* Doxgelxi Grokarman */,
 			);
 			name = "Doxgelxi Grokarman";
 			productName = "Doxgelxi Grokarman";
@@ -135,6 +375,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7451FD552F7471B400C72359 /* Assets.xcassets in Resources */,
+				7451FD572F7471B400C72359 /* LaunchScreen.storyboard in Resources */,
+				7451FD582F7471B400C72359 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,10 +413,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7451FD592F7471B400C72359 /* RootView.swift in Sources */,
+				7451FD5A2F7471B400C72359 /* AppVisualStyles.swift in Sources */,
+				7451FD5B2F7471B400C72359 /* ButtonStyles.swift in Sources */,
+				7451FD5C2F7471B400C72359 /* DifficultyPickerView.swift in Sources */,
+				7451FD5D2F7471B400C72359 /* AppPolicyLink.swift in Sources */,
+				7451FD5E2F7471B400C72359 /* AppStorage.swift in Sources */,
+				7451FD5F2F7471B400C72359 /* AchievementsView.swift in Sources */,
+				7451FD602F7471B400C72359 /* ActivityResult.swift in Sources */,
+				7451FD612F7471B400C72359 /* MountainAscentView.swift in Sources */,
+				7451FD622F7471B400C72359 /* MountainAscentViewModel.swift in Sources */,
+				7451FD632F7471B400C72359 /* MysticForestQuestView.swift in Sources */,
+				7451FD642F7471B400C72359 /* MysticForestQuestViewModel.swift in Sources */,
+				7451FD652F7471B400C72359 /* ResultView.swift in Sources */,
+				7451FD662F7471B400C72359 /* RuinsOfTimeView.swift in Sources */,
+				7451FD672F7471B400C72359 /* RuinsOfTimeViewModel.swift in Sources */,
+				7451FD682F7471B400C72359 /* ActivityHostView.swift in Sources */,
+				7451FD692F7471B400C72359 /* ActivityGlyphView.swift in Sources */,
+				7451FD6A2F7471B400C72359 /* AdventuresHomeView.swift in Sources */,
+				7451FD6B2F7471B400C72359 /* LevelSelectView.swift in Sources */,
+				7451FD6C2F7471B400C72359 /* HomeView.swift in Sources */,
+				7451FD6D2F7471B400C72359 /* MainTabView.swift in Sources */,
+				7451FD6E2F7471B400C72359 /* OnboardingView.swift in Sources */,
+				7451FD6F2F7471B400C72359 /* ProfileView.swift in Sources */,
+				7451FD702F7471B400C72359 /* SettingsView.swift in Sources */,
+				7451FD712F7471B400C72359 /* AppDelegate.swift in Sources */,
+				7451FD722F7471B400C72359 /* ContentView.swift in Sources */,
+				7451FD732F7471B400C72359 /* SceneDelegate.swift in Sources */,
+				7451FD742F7471B400C72359 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7451FD4F2F7471B400C72359 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7451FD4E2F7471B400C72359 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7451FD512F7471B400C72359 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7451FD502F7471B400C72359 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7451FC552F7441EF00C72359 /* Debug */ = {
