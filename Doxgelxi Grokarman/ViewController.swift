@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Doxgelxi Grokarman
 //
-//  Created by Роман Главацкий on 25.03.2026.
+//  Created by Zeph Rowan on 25.03.2026.
 //
 
 import UIKit

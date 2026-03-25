@@ -3,15 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
+		0D3BA69F8279C9F70C49F665 /* Pods-Doxgelxi Grokarman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doxgelxi Grokarman.debug.xcconfig"; path = "Target Support Files/Pods-Doxgelxi Grokarman/Pods-Doxgelxi Grokarman.debug.xcconfig"; sourceTree = "<group>"; };
+		23D53E0F12F3B0ED91A78434 /* Pods_Doxgelxi_Grokarman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doxgelxi_Grokarman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDBBB55BE9CD8D28ECA5652 /* Pods-Doxgelxi Grokarman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doxgelxi Grokarman.release.xcconfig"; path = "Target Support Files/Pods-Doxgelxi Grokarman/Pods-Doxgelxi Grokarman.release.xcconfig"; sourceTree = "<group>"; };
 		7451FC412F7441EE00C72359 /* Doxgelxi Grokarman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doxgelxi Grokarman.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7451FC532F7441EF00C72359 /* Exceptions for "Doxgelxi Grokarman" folder in "Doxgelxi Grokarman" target */ = {
+		7451FC7B2F74423600C72359 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,14 +24,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7451FC432F7441EE00C72359 /* Doxgelxi Grokarman */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7451FC532F7441EF00C72359 /* Exceptions for "Doxgelxi Grokarman" folder in "Doxgelxi Grokarman" target */,
-			);
-			path = "Doxgelxi Grokarman";
-			sourceTree = "<group>";
-		};
+		7451FC732F74423600C72359 /* Doxgelxi Grokarman */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7451FC7B2F74423600C72359 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Doxgelxi Grokarman"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,11 +38,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		015B19635933AF1DA795E14A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D3BA69F8279C9F70C49F665 /* Pods-Doxgelxi Grokarman.debug.xcconfig */,
+				3EDBBB55BE9CD8D28ECA5652 /* Pods-Doxgelxi Grokarman.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3DE5B375236ED27B12016B1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23D53E0F12F3B0ED91A78434 /* Pods_Doxgelxi_Grokarman.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7451FC382F7441EE00C72359 = {
 			isa = PBXGroup;
 			children = (
-				7451FC432F7441EE00C72359 /* Doxgelxi Grokarman */,
+				7451FC732F74423600C72359 /* Doxgelxi Grokarman */,
 				7451FC422F7441EE00C72359 /* Products */,
+				015B19635933AF1DA795E14A /* Pods */,
+				3DE5B375236ED27B12016B1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +80,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7451FC542F7441EF00C72359 /* Build configuration list for PBXNativeTarget "Doxgelxi Grokarman" */;
 			buildPhases = (
+				173B8BC76AD653FC7F17EF99 /* [CP] Check Pods Manifest.lock */,
 				7451FC3D2F7441EE00C72359 /* Sources */,
 				7451FC3E2F7441EE00C72359 /* Frameworks */,
 				7451FC3F2F7441EE00C72359 /* Resources */,
@@ -74,11 +90,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7451FC432F7441EE00C72359 /* Doxgelxi Grokarman */,
+				7451FC732F74423600C72359 /* Doxgelxi Grokarman */,
 			);
 			name = "Doxgelxi Grokarman";
-			packageProductDependencies = (
-			);
 			productName = "Doxgelxi Grokarman";
 			productReference = 7451FC412F7441EE00C72359 /* Doxgelxi Grokarman.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +113,7 @@
 				};
 			};
 			buildConfigurationList = 7451FC3C2F7441EE00C72359 /* Build configuration list for PBXProject "Doxgelxi Grokarman" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +121,6 @@
 				Base,
 			);
 			mainGroup = 7451FC382F7441EE00C72359;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 7451FC422F7441EE00C72359 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +140,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		173B8BC76AD653FC7F17EF99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Doxgelxi Grokarman-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7451FC3D2F7441EE00C72359 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +178,7 @@
 /* Begin XCBuildConfiguration section */
 		7451FC552F7441EF00C72359 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3BA69F8279C9F70C49F665 /* Pods-Doxgelxi Grokarman.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +186,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Doxgelxi Grokarman/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Doxgelxi Grokarman";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Doxgelxi-Grokarman";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zep.d0xg3lg81gr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7451FC562F7441EF00C72359 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EDBBB55BE9CD8D28ECA5652 /* Pods-Doxgelxi Grokarman.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +224,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Doxgelxi Grokarman/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Doxgelxi Grokarman";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Doxgelxi-Grokarman";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zep.d0xg3lg81gr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
