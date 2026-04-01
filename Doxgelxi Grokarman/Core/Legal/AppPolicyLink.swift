@@ -15,9 +15,9 @@ enum AppPolicyLink: String, CaseIterable {
     var urlString: String {
         switch self {
         case .privacy:
-            return "https://doxgelxigrokarman111.site/privacy/28"
+            return "https://doxgelxigrokarman.com/privacy-policy.html"
         case .terms:
-            return "https://doxgelxigrokarman111.site/terms/28"
+            return "https://doxgelxigrokarman.com/support.html"
         }
     }
 
